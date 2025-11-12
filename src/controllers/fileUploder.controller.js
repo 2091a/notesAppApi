@@ -1,6 +1,6 @@
 import { asyncHandler } from "../utils/asyncHandler.js";
 
-// --- Single File Upload ---
+// Single File Upload 
  const singleFileUplod = asyncHandler(async(req, res) => {
   console.log(req.file);
 
@@ -10,7 +10,7 @@ import { asyncHandler } from "../utils/asyncHandler.js";
   });
 });
 
-// --- Multiple File Upload ---
+// Multiple File Upload 
 const multipleFileUplod = asyncHandler(async (req, res) => {
   console.log(req.files);
 
